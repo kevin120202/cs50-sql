@@ -13,4 +13,8 @@ SELECT * FROM scans WHERE package_id IN (
 SELECT * FROM addresses WHERE id = 348;
 
 -- *** The Forgotten Gift ***
-
+SELECT * FROM packages WHERE from_address_id IN (
+    SELECT id FROM addresses WHERE address = '109 Tileston Street'
+);
+SELECT * FROM scans WHERE package_id = 9523;
+SELECT * FROM drivers WHERE id = 17;
