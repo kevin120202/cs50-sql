@@ -2,8 +2,6 @@
 
 By Kevin Dela Paz
 
-Video overview: <URL HERE>
-
 ## Scope
 
 In this section you should answer the following questions:
